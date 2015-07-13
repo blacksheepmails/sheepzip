@@ -1,0 +1,33 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="thing.css">
+</head>
+<body onload = "main()">
+<div class="solution-container">
+    <div class="content-container" id="content-container">
+	    <h1 class="content-text" id="solution-txt"></h1>
+	    <div class="content-image" id="solution-img"></div>
+	    </div>
+    <div class="response-container">
+        <ul>
+	        <li class="response">
+	            <img class="response clickable" id="negative" src="social-problem-solving/static/assets/img-new/face_sad.gif" alt="sad">
+	            </li>
+	        <li class="response">
+	            <img class="response clickable" id="neutral" src="social-problem-solving/static/assets/img-new/face_meh.gif" alt="meh">
+	            </li>
+	        <li class="response">
+	            <img class="response clickable" id="positive" src="social-problem-solving/static/assets/img-new/face_happy.gif" alt="happy">
+	            </li>
+	        </ul>
+        </div>
+    </div>
+<div class="content-question-container" id="content-question-container">
+    <h1 class="content-text" id="question-txt"></h1>
+	<div class="content-image" id="question-img"></div>
+    </div>
+<script src="questions.js"></script>
+</body>
+</html>

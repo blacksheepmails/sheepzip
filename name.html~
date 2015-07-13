@@ -1,0 +1,18 @@
+<html>
+<head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="thing.css">
+</head>
+<body onload="main()">
+    <div class="question-container">
+        <h1>[What is your name?]</h1>
+        <h1>[What is your name?]</h1>
+        </div>
+    <div class="answer-container">
+        <input class="name" id="name" type="text">
+        <img class="submit" class="clickable" id="submit" src="social-problem-solving/static/assets/img-new/submit_arrow.gif"/>
+        <input type="text">        
+        </div>
+<script src="name.js"></script>
+</body>
+</html>

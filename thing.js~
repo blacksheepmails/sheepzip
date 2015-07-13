@@ -1,0 +1,40 @@
+var contentCounter = 1;
+function main () {
+    loadContent(content);
+    document.getElementById("negative").addEventListener("click", function() {
+	recordResponse("negative", content);
+	next();
+	}
+    );
+    document.getElementById("neutral").addEventListener("click", function() {
+	recordResponse("neutral", content);
+	next();
+	}
+    );
+    document.getElementById("positive").addEventListener("click", function() {
+	recordResponse("positive", content);
+	next();
+	}
+    );
+}
+function loadContent () {
+    var imgtxt = "lalalalalallalaa lelelelleleleeeelelele liilililililil lolollloolol luluululuu this is the " + contentCounter + "thingy!";
+    var imgsrc = "social-problem-solving/static/assets/img-new/illustration_" + contentCounter + ".gif";
+    document.getElementById("txt-content").innerHTML = imgtxt; 
+    document.getElementById("img-content").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";
+}
+
+function recordResponse (response, content) {
+	$.ajax({
+		method: "POST",
+		url: "some-url.php",
+		data: {response: response, content: content}
+	});
+
+	alert("i am called with " + response);
+}
+
+function next() {
+	contentCounter = contentCounter + 1;
+	loadContent();
+}

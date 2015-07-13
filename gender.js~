@@ -1,0 +1,9 @@
+function main () {
+    document.getElementById("boy").addEventListener("click", clickHandler.bind(this, "boy"));
+    document.getElementById("girl").addEventListener("click", clickHandler.bind(this, "girl"));
+}
+
+function clickHandler (gender) {
+	localStorage.gender=gender;
+	window.location.href="instructions.html";
+}

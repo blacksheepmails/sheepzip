@@ -1,0 +1,9 @@
+function main () {
+    var ages = document.getElementsByClassName("age-choice")
+    for (var i=0; i<ages.length; i++) {ages[i].addEventListener("click", clickHandler.bind(this, ages[i].innerHTML));}
+}
+
+function clickHandler (age) {
+	localStorage.age=age;
+	window.location.href="gender.html";
+}
