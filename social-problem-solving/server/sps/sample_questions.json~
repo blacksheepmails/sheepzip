@@ -1,0 +1,132 @@
+{
+    "questions": [
+        {
+            "question_id": "1",
+            "text": "There is a new girl in Zip's class, and Zip wants to be her friend. How could Zip get to know her?",
+	        "image": "illustration_4.gif",
+            "solutions": [
+		        {
+                    "text": "Zip could say hi",
+                    "image": "illustration_5.gif",
+		            "solution_id": "1"
+                },
+		        {
+                    "text": "Zip could sit near her",
+                    "image": "illustration_6.gif",
+		            "solution_id": "2"
+                },
+		        {
+                    "text": "Zip could throw a rubber at her to get her attention",
+                    "image": "illustration_7.gif",
+		            "solution_id": "3"
+                },
+		        {
+                    "text": "Zip could play with her",
+                    "image": "illustration_8.gif",
+		            "solution_id": "4"
+                },
+		        {
+                    "text": "Zip could make sure no one else could talk to her",
+                    "image": "illustration_9.gif",
+		            "solution_id": "5"
+                }
+	        ]
+        },
+        {
+            "question_id": "2",
+	        "text": "Bing, Pop and Snap are playing a game of piggy in the middle in the school playground. Zip wants to play. How could Zip get to play?",
+	        "image": "illustration_10.gif",
+            "solutions": [
+		        {
+                    "text": "Zip could join in without asking",
+                    "image": "illustration_11.gif",
+                    "solution_id": "6"
+                },
+		        {
+                    "text": "Zip could ask to play",
+                    "image": "illustration_12.gif",
+                    "solution_id": "7"
+                },
+		        {
+                    "text": "Zip could start a new game of piggy in the middle with some other friends",
+                    "image": "illustration_13.gif",
+                    "solution_id": "8"
+                },
+		        {
+                    "text": "Zip could try and grab the ball",
+                    "image": "illustration_14.gif",
+                    "solution_id": "9"
+                },
+		        {
+                    "text": "Zip could get cross with them for not including Zip and demand to play",
+                    "image": "illustration_15.gif",
+                    "solution_id": "10"
+                }
+	        ]
+        },
+        {
+            "question_id": "3",
+	        "text": "Bing is using all the paintbrushes and Zip wants to do some painting. How could Zip get a paintbrush?",
+	        "image": "illustration_16.gif",
+            "solutions": [
+		        {
+                    "text": "Zip could ask for a paintbrush",
+                    "image": "illustration_17.gif",
+                    "solution_id": "11"
+                },
+		        {
+                    "text": "Zip could tell the teacher about Bing so the teacher could tell Bing off",
+                    "image": "illustration_18.gif",
+                    "solution_id": "12"
+                },
+		        {
+                    "text": "Zip could go away and forget about painting",
+                    "image": "illustration_19.gif",
+                    "solution_id": "13"
+                },
+		        {
+                    "text": "Zip could tell Bing that it's selfish to use all the paintbrushes",
+                    "image": "illustration_20.gif",
+                    "solution_id": "14"
+                },
+		        {
+                    "text": "Zip could look to see if there was another paintbrush anywhere",
+                    "image": "illustration_21.gif",
+                    "solution_id": "15"
+                }
+	        ]
+        },
+        {
+            "question_id": "4",
+	        "text": "Zip brought a superhero toy into school. Just before home time Pop is playing with the superhero, and Zip wants it back. How could Zip get the superhero back before home time?",
+	        "image": "illustration_22.gif",
+            "solutions": [
+		        {
+                    "text": "Zip could join in without asking",
+                    "image": "illustration_11.gif",
+                    "solution_id": "6"
+                },
+		        {
+                    "text": "Zip could ask to play",
+                    "image": "illustration_12.gif",
+                    "solution_id": "7"
+                },
+		        {
+                    "text": "Zip could start a new game of piggy in the middle with some other friends",
+                    "image": "illustration_13.gif",
+                    "solution_id": "8"
+                },
+		        {
+                    "text": "Zip could try and grab the ball",
+                    "image": "illustration_14.gif",
+                    "solution_id": "9"
+                },
+		        {
+                    "text": "Zip could get cross with them for not including Zip and demand to play",
+                    "image": "illustration_15.gif",
+                    "solution_id": "10"
+                }
+	        ]
+        }
+    ]
+}

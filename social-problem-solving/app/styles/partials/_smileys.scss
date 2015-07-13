@@ -1,0 +1,16 @@
+@import '../settings';
+@import '../modules/smileys';
+
+
+.fa-smile-o {
+  @include smiley($good-color);
+}
+
+.fa-frown-o {
+  @include smiley($bad-color);
+}
+
+.fa-meh-o {
+  @include smiley($meh-color);
+}
+

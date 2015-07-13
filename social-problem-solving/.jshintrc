@@ -1,0 +1,9 @@
+{
+  "esnext": true,
+  "curly": true,
+  "freeze": true,
+  "latedef": true,
+  "notypeof": true,
+  "shadow": "inner",
+  "unused": true
+}

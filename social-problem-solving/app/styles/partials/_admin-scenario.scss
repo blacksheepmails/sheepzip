@@ -1,0 +1,6 @@
+@import '../modules/admin-scenario';
+
+.admin-scenario {
+  @include admin-scenario;    
+}
+

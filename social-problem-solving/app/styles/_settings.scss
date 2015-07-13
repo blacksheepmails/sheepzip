@@ -1,0 +1,36 @@
+$good-color:  #79d03e;
+$bad-color:   #d03e3e;
+$meh-color:   #e8b52f;
+
+$primary:     #385371;
+$secondary:   #d1dae0;
+
+$dark-grey:   #cccccd;
+$medium-grey: #eeeeef;
+$light-grey:  #fcfcfc;
+
+$male:   #0094ff;
+$female: #ffaebc;
+
+// computed colors
+$dark-primary:  darken($primary, 10%);
+$light-primary: lighten($primary, 30%);
+$dark-secondary:  darken($primary, 10%);
+$light-secondary: lighten($primary, 30%);
+
+
+
+@mixin scrollable {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+@mixin animate($duration: .5s) {
+  // scss-lint:disable VendorPrefix
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+  // scss-lint:enable VendorPrefix
+}
+

@@ -1,0 +1,5 @@
+@import '../modules/search';
+
+.search {
+  @include search;
+}

@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "type": "question",
+      "title": {
+        "translations": {
+          "en": "Zip could join in with",
+          "cy": "Llllangollen brydfrdd Zip"
+        }
+      },
+      "bubble_text": {
+        "translations": {
+          "en": "",
+          "cy": ""
+        },
+        "position": {
+          "x": "0px",
+          "y": "0px"
+        }
+      }
+    }
+  ]
+}
+

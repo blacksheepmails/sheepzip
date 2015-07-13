@@ -1,0 +1,47 @@
+@import '../settings';
+
+@mixin records-list {
+  list-style-type: none;
+  margin: 0;
+
+  // use this to hide the radio buttons in the record lists
+  .hidden {
+    display: none;
+  }
+
+  label {
+    @include animate(.5s);
+    border-bottom: solid 1px $medium-grey;
+    cursor: pointer;
+
+    // hack to make labels work for radio buttons in record listings.
+    display: block;
+
+    overflow: hidden;
+    padding: .25em 0;
+  }
+
+  label:hover {
+    @include animate(.2s);
+    padding-left: 1em;
+  }
+
+  :checked + label {
+    background: darken($light-grey, 2%);
+    font-weight: bold;
+    padding-left: 1em;
+  }
+
+  .age {
+    color: $primary;
+  }
+
+  .fa-male {
+    color: $male;
+  }
+
+  .fa-female {
+    color: $female;
+  }
+}
+

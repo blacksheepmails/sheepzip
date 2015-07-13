@@ -1,0 +1,15 @@
+{
+  "date_submitted": "10200401",
+  "user": {
+    "name": "",
+    "age": 0,
+    "gender": "male",
+    "language": "cy"
+  },
+  "groups": [
+    [0, 0, 1, -1],
+    [0, 0, 1, -1],
+    [0, 0, 1, -1],
+  ]
+}
+

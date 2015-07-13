@@ -1,0 +1,61 @@
+css_files: 'app/styles/**/*.scss'
+
+linters:
+  ColorVariable:
+    enabled: true
+  DuplicateProperty:
+    enabled: true
+  EmptyLineBetweenBlocks:
+    enabled: true
+  FinalNewline:
+    enabled: true
+  HexNotation:
+    style: 'lowercase'
+  HexValidation:
+    enabled: true
+  IdSelector:
+    enabled: true
+  ImportPath:
+    enabled: true
+    leading_underscore: false
+    filename_extension: false
+  Indentation:
+    enabled: true
+    character: 'space'
+    width: 2
+  LeadingZero:
+    enabled: true
+  MergeableSelector:
+    enabled: true
+  NameFormat:
+    convention: 'hyphenated_lowercase'
+  PropertyUnits:
+    global: ['em', 'rem', '%']
+  SelectorDepth:
+    max_depth: 3
+  SelectorFormat:
+    convention: 'hyphenated_lowercase'
+  SpaceAfterComma:
+    enabled: true
+  SpaceAfterPropertyColon:
+    style: 'one_space'
+  SpaceBeforeBrace:
+    style: 'space'
+  StringQuotes:
+    style: 'single_quotes'
+  TrailingSemicolon:
+    enabled: true
+  TrailingZero:
+    enabled: true
+  UnnecessaryParentReference:
+    enabled: true
+  UrlQuotes:
+    enabled: true
+  VariableForProperty:
+    enabled: true
+    properties:
+      - color
+  VendorPrefix:
+    enabled: true
+  ZeroUnit:
+    enabled: true

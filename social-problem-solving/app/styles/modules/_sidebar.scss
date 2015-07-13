@@ -1,0 +1,55 @@
+@import '../settings';
+@import 'records-list';
+
+$sidebar-width: 18.5em;
+$sidebar-fixed-height: 2.5em;
+
+@mixin sidebar {
+  background: $light-grey;
+  width: $sidebar-width;
+  height: 100%;
+  position: fixed;
+  padding: $sidebar-fixed-height 0;
+  left: 0;
+  top: 0;
+
+  .records {
+    @include records-list;
+  }
+
+  .scrollable {
+    border-right: solid 1px $dark-grey;
+  }
+
+  .fixed {
+    background: $primary;
+    border-right: solid 1px $dark-primary;
+    height: $sidebar-fixed-height;
+    line-height: $sidebar-fixed-height;
+    padding: 0 .6em;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+  }
+
+  .fixed.top {
+    border-bottom: solid 1px $dark-primary;
+    top: 0;
+  }
+
+  .fixed.bottom {
+    border-top: solid 1px $dark-primary;
+    bottom: 0;
+  }
+
+  .search {
+    position: relative;
+    top: -1px;
+    width: $sidebar-width;
+  }
+}
+
+@mixin sidebar-negative-space {
+  margin-left: $sidebar-width;
+}
+

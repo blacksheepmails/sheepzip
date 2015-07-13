@@ -1,0 +1,7 @@
+user_id,solution_id,response,question_id
+850943465,1,positive,1
+850943465,2,positive,1
+850943465,3,positive,1
+850943465,4,positive,1
+850943465,5,positive,1
+850943465,6,neutral,2
