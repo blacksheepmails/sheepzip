@@ -9,8 +9,7 @@
 		        {
                     "english_text": "Zip could say hi",
                     "welsh_text": "Gallai Zip ddweud \"Helo\"",
-                    "english_bubble": "Hi, I am Zip, nice to meet you!",
-                    "welsh_bubble": "Hi, Zip ydw i, neis i gyfarfod chdi",
+                    "image_duo": "true",
                     "image": "illustration_5.gif",
 		            "solution_id": "1"
                 },
@@ -55,16 +54,13 @@
 		        {
                     "english_text": "Zip could ask to play",
                     "welsh_text": "Gallai Zip ofyn i gael chwarae",
-                    "english_bubble": "Please could I play?",
-                    "welsh_bubble": "Plis gai chwarae.",
+                    "image_duo": "true",
                     "image": "illustration_12.gif",
                     "solution_id": "7"
                 },
 		        {
                     "english_text": "Zip could start a new game of piggy in the middle with some other friends",
                     "welsh_text": "Gallai Zip ddechrau gem newydd o foch bach yng nghanol yr iard gyda rhai ffrindiau eraill",
-                    "english_bubble": "Would you like to play?",
-                    "welsh_bubble": "Fysa chdi yn hoffi chwarae?",
                     "image": "illustration_13.gif",
                     "solution_id": "8"
                 },
@@ -91,8 +87,6 @@
 		        {
                     "english_text": "Zip could ask for a paintbrush",
                     "welsh_text": "Gallai Zip ofyn i Bing am frws paent",
-                    "english_bubble": "Please can I use a paintbrush?",
-                    "welsh_bubble": "Plis gai ddefnyddio brwsh paent.",
                     "image": "illustration_17.gif",
                     "solution_id": "11"
                 },
@@ -105,21 +99,19 @@
 		        {
                     "english_text": "Zip could go away and forget about painting",
                     "welsh_text": "Gallai Zip fynd i ffwrdd ac anghofio am baentio",
-                    "image": "illustration_19.gif",
+                    "image": "illustration_16.gif",
                     "solution_id": "13"
                 },
 		        {
                     "english_text": "Zip could tell Bing that it's selfish to use all the paintbrushes",
                     "welsh_text": "Gallai Zip ddweud wrth Bing ei bod yn hunanol gan ddefnyddio'r holl frwsys paent",
-                    "english_bubble": "You are selfish for not sharing.",
-                    "welsh_bubble": "Ti yn hunano l am beidio rhannu.",
-                    "image": "illustration_20.gif",
+                    "image": "illustration_19.gif",
                     "solution_id": "14"
                 },
 		        {
                     "english_text": "Zip could look to see if there was another paintbrush anywhere",
                     "welsh_text": "Gallai Zip edrych i weld a oedd brws paent arall yn rhywle",
-                    "image": "illustration_21.gif",
+                    "image": "illustration_20.gif",
                     "solution_id": "15"
                 }
 	        ]
@@ -128,20 +120,18 @@
             "question_id": "4",
 	        "english_text": "Zip brought a superhero toy into school. Just before home time Pop is playing with the superhero, and Zip wants it back. How could Zip get the superhero back before home time?",
             "welsh_text": "Daeth Zip a thegan 'Superhero' i'r ysgol. Jest cyn amser mynd adref, mae Pop yn chwarae a'r 'Superhero', ac mae Zip yn awyddus i'w gael yn ol. Sut y gallai Zip gael y 'Superhero' yn ol cyn amser mynd adref?",
-	        "image": "illustration_22.gif",
+	        "image": "illustration_21.gif",
             "solutions": [
 		        {
                     "english_text": "Zip could warn Pop it's home time soon and that the superhero toy needed to go home with Zip",
                     "welsh_text": "Gallai Zip rybuddio Pop ei bod bron yn amser mynd adref, a bod angen i'r tegan 'Superhero' fynd adref gyda Zip",
-                    "english_bubble": "Please can I have it before home time?",
-                    "welsh_bubble": "Plis gai o yn ol cyn amser mynd adref",
-                    "image": "illustration_23.gif",
+                    "image": "illustration_22.gif",
                     "solution_id": "16"
                 },
 		        {
                     "english_text": "Zip could watch the superhero carefully to know where it was",
                     "welsh_text": "Gallai Zip wylio'r 'Superhero' yn ofalus i wybod lle roedd",
-                    "image": "illustration_24.gif",
+                    "image": "illustration_23.gif",
                     "solution_id": "17"
                 },
 		        {
