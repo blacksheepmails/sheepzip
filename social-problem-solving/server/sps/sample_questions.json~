@@ -2,37 +2,39 @@
     "questions": [
         {
             "question_id": "1",
-            "english-text": "There is a new girl in Zip's class, and Zip wants to be her friend. How could Zip get to know her?",
-            "welsh-text": "Mae merch newydd yn nosbarth Zip, ac mae Zip yn awyddus i fod yn ffrind iddi. Sut y gallai Zip ddod i'w hadnabod?",
+            "english_text": "There is a new girl in Zip's class, and Zip wants to be her friend. How could Zip get to know her?",
+            "welsh_text": "Mae merch newydd yn nosbarth Zip, ac mae Zip yn awyddus i fod yn ffrind iddi. Sut y gallai Zip ddod i'w hadnabod?",
 	        "image": "illustration_4.gif",
             "solutions": [
 		        {
-                    "english-text": "Zip could say hi",
-                    "welsh-text": "Gallai Zip ddweud \"Helo\"",
+                    "english_text": "Zip could say hi",
+                    "welsh_text": "Gallai Zip ddweud \"Helo\"",
+                    "english_bubble": "Hi, I am Zip, nice to meet you!",
+                    "welsh_bubble": "Hi, Zip ydw i, neis i gyfarfod chdi",
                     "image": "illustration_5.gif",
 		            "solution_id": "1"
                 },
 		        {
-                    "english-text": "Zip could sit near her",
-                    "welsh-text": "Gallai Zip eistedd wrth ei hymyl",
+                    "english_text": "Zip could sit near her",
+                    "welsh_text": "Gallai Zip eistedd wrth ei hymyl",
                     "image": "illustration_6.gif",
 		            "solution_id": "2"
                 },
 		        {
-                    "english-text": "Zip could throw a rubber at her to get her attention",
-                    "welsh-text": "Gallai Zip daflu rwber ati i gael ei sylw",
+                    "english_text": "Zip could throw a rubber at her to get her attention",
+                    "welsh_text": "Gallai Zip daflu rwber ati i gael ei sylw",
                     "image": "illustration_7.gif",
 		            "solution_id": "3"
                 },
 		        {
-                    "english-text": "Zip could play with her",
-                    "welsh-text": "Gallai Zip chwarae a hi",
+                    "english_text": "Zip could play with her",
+                    "welsh_text": "Gallai Zip chwarae a hi",
                     "image": "illustration_8.gif",
 		            "solution_id": "4"
                 },
 		        {
-                    "english-text": "Zip could make sure no one else could talk to her",
-                    "welsh-text": "Gallai Zip sicrhau na allai neb arall siarad a hi",
+                    "english_text": "Zip could make sure no one else could talk to her",
+                    "welsh_text": "Gallai Zip sicrhau na allai neb arall siarad a hi",
                     "image": "illustration_9.gif",
 		            "solution_id": "5"
                 }
@@ -40,37 +42,41 @@
         },
         {
             "question_id": "2",
-	        "english-text": "Bing, Pop and Snap are playing a game of piggy in the middle in the school playground. Zip wants to play. How could Zip get to play?",
-            "welsh-text": "Mae Bing, Pop a Snap yn chwarae gem o foch bach yng nghanol iard yr ysgol. Mae Zip yn eisiau chwarae. Sut y gallai Zip ddod i chwarae?",
+	        "english_text": "Bing, Pop and Snap are playing a game of piggy in the middle in the school playground. Zip wants to play. How could Zip get to play?",
+            "welsh_text": "Mae Bing, Pop a Snap yn chwarae gem o foch bach yng nghanol iard yr ysgol. Mae Zip yn eisiau chwarae. Sut y gallai Zip ddod i chwarae?",
 	        "image": "illustration_10.gif",
             "solutions": [
 		        {
-                    "english-text": "Zip could join in without asking",
-                    "welsh-text": "Gallai Zip ymuno heb ofyn",
+                    "english_text": "Zip could join in without asking",
+                    "welsh_text": "Gallai Zip ymuno heb ofyn",
                     "image": "illustration_11.gif",
                     "solution_id": "6"
                 },
 		        {
-                    "english-text": "Zip could ask to play",
-                    "welsh-text": "Gallai Zip ofyn i gael chwarae",
+                    "english_text": "Zip could ask to play",
+                    "welsh_text": "Gallai Zip ofyn i gael chwarae",
+                    "english_bubble": "Please could I play?",
+                    "welsh_bubble": "Plis gai chwarae.",
                     "image": "illustration_12.gif",
                     "solution_id": "7"
                 },
 		        {
-                    "english-text": "Zip could start a new game of piggy in the middle with some other friends",
-                    "welsh-text": "Gallai Zip ddechrau gem newydd o foch bach yng nghanol yr iard gyda rhai ffrindiau eraill",
+                    "english_text": "Zip could start a new game of piggy in the middle with some other friends",
+                    "welsh_text": "Gallai Zip ddechrau gem newydd o foch bach yng nghanol yr iard gyda rhai ffrindiau eraill",
+                    "english_bubble": "Would you like to play?",
+                    "welsh_bubble": "Fysa chdi yn hoffi chwarae?",
                     "image": "illustration_13.gif",
                     "solution_id": "8"
                 },
 		        {
-                    "english-text": "Zip could try and grab the ball",
-                    "welsh-text": "Gallai Zip geisio gafael yn y bel",
+                    "english_text": "Zip could try and grab the ball",
+                    "welsh_text": "Gallai Zip geisio gafael yn y bel",
                     "image": "illustration_14.gif",
                     "solution_id": "9"
                 },
 		        {
-                    "english-text": "Zip could get cross with them for not including Zip and demand to play",
-                    "welsh-text": "Gallai Zip ddigio wrthyn nhw am beidio a chynnwys Zip a mynnu chwarae",
+                    "english_text": "Zip could get cross with them for not including Zip and demand to play",
+                    "welsh_text": "Gallai Zip ddigio wrthyn nhw am beidio a chynnwys Zip a mynnu chwarae",
                     "image": "illustration_15.gif",
                     "solution_id": "10"
                 }
@@ -78,37 +84,41 @@
         },
         {
             "question_id": "3",
-	        "english-text": "Bing is using all the paintbrushes and Zip wants to do some painting. How could Zip get a paintbrush?",
-            "welsh-text": "Mae Bing yn defnyddio'r holl frwsys paent a mae Zip eisiau gwneud rhywfaint o baentio. Sut y gallai Zip gael brws paent?",
+	        "english_text": "Bing is using all the paintbrushes and Zip wants to do some painting. How could Zip get a paintbrush?",
+            "welsh_text": "Mae Bing yn defnyddio'r holl frwsys paent a mae Zip eisiau gwneud rhywfaint o baentio. Sut y gallai Zip gael brws paent?",
 	        "image": "illustration_16.gif",
             "solutions": [
 		        {
-                    "english-text": "Zip could ask for a paintbrush",
-                    "welsh-text": "Gallai Zip ofyn i Bing am frws paent",
+                    "english_text": "Zip could ask for a paintbrush",
+                    "welsh_text": "Gallai Zip ofyn i Bing am frws paent",
+                    "english_bubble": "Please can I use a paintbrush?",
+                    "welsh_bubble": "Plis gai ddefnyddio brwsh paent.",
                     "image": "illustration_17.gif",
                     "solution_id": "11"
                 },
 		        {
-                    "english-text": "Zip could tell the teacher about Bing so the teacher could tell Bing off",
-                    "welsh-text": "Gallai Zip ddweud wrth yr athrawes am Bing, fel y gallai'r athrawes ddweud y drefn wrth Bing",
+                    "english_text": "Zip could tell the teacher about Bing so the teacher could tell Bing off",
+                    "welsh_text": "Gallai Zip ddweud wrth yr athrawes am Bing, fel y gallai'r athrawes ddweud y drefn wrth Bing",
                     "image": "illustration_18.gif",
                     "solution_id": "12"
                 },
 		        {
-                    "english-text": "Zip could go away and forget about painting",
-                    "welsh-text": "Gallai Zip fynd i ffwrdd ac anghofio am baentio",
+                    "english_text": "Zip could go away and forget about painting",
+                    "welsh_text": "Gallai Zip fynd i ffwrdd ac anghofio am baentio",
                     "image": "illustration_19.gif",
                     "solution_id": "13"
                 },
 		        {
-                    "english-text": "Zip could tell Bing that it's selfish to use all the paintbrushes",
-                    "welsh-text": "Gallai Zip ddweud wrth Bing ei bod yn hunanol gan ddefnyddio'r holl frwsys paent",
+                    "english_text": "Zip could tell Bing that it's selfish to use all the paintbrushes",
+                    "welsh_text": "Gallai Zip ddweud wrth Bing ei bod yn hunanol gan ddefnyddio'r holl frwsys paent",
+                    "english_bubble": "You are selfish for not sharing.",
+                    "welsh_bubble": "Ti yn hunano l am beidio rhannu.",
                     "image": "illustration_20.gif",
                     "solution_id": "14"
                 },
 		        {
-                    "english-text": "Zip could look to see if there was another paintbrush anywhere",
-                    "welsh-text": "Gallai Zip edrych i weld a oedd brws paent arall yn rhywle",
+                    "english_text": "Zip could look to see if there was another paintbrush anywhere",
+                    "welsh_text": "Gallai Zip edrych i weld a oedd brws paent arall yn rhywle",
                     "image": "illustration_21.gif",
                     "solution_id": "15"
                 }
@@ -116,37 +126,39 @@
         },
         {
             "question_id": "4",
-	        "english-text": "Zip brought a superhero toy into school. Just before home time Pop is playing with the superhero, and Zip wants it back. How could Zip get the superhero back before home time?",
-            "welsh-text": "Daeth Zip a thegan 'Superhero' i'r ysgol. Jest cyn amser mynd adref, mae Pop yn chwarae a'r 'Superhero', ac mae Zip yn awyddus i'w gael yn ol. Sut y gallai Zip gael y 'Superhero' yn ol cyn amser mynd adref?",
+	        "english_text": "Zip brought a superhero toy into school. Just before home time Pop is playing with the superhero, and Zip wants it back. How could Zip get the superhero back before home time?",
+            "welsh_text": "Daeth Zip a thegan 'Superhero' i'r ysgol. Jest cyn amser mynd adref, mae Pop yn chwarae a'r 'Superhero', ac mae Zip yn awyddus i'w gael yn ol. Sut y gallai Zip gael y 'Superhero' yn ol cyn amser mynd adref?",
 	        "image": "illustration_22.gif",
             "solutions": [
 		        {
-                    "english-text": "Zip could warn Pop it's home time soon and that the superhero toy needed to go home with Zip",
-                    "welsh-text": "Gallai Zip rybuddio Pop ei bod bron yn amser mynd adref, a bod angen i'r tegan 'Superhero' fynd adref gyda Zip",
+                    "english_text": "Zip could warn Pop it's home time soon and that the superhero toy needed to go home with Zip",
+                    "welsh_text": "Gallai Zip rybuddio Pop ei bod bron yn amser mynd adref, a bod angen i'r tegan 'Superhero' fynd adref gyda Zip",
+                    "english_bubble": "Please can I have it before home time?",
+                    "welsh_bubble": "Plis gai o yn ol cyn amser mynd adref",
                     "image": "illustration_23.gif",
                     "solution_id": "16"
                 },
 		        {
-                    "english-text": "Zip could watch the superhero carefully to know where it was",
-                    "welsh-text": "Gallai Zip wylio'r 'Superhero' yn ofalus i wybod lle roedd",
+                    "english_text": "Zip could watch the superhero carefully to know where it was",
+                    "welsh_text": "Gallai Zip wylio'r 'Superhero' yn ofalus i wybod lle roedd",
                     "image": "illustration_24.gif",
                     "solution_id": "17"
                 },
 		        {
-                    "english-text": "Zip could take the superhero off Pop",
-                    "welsh-text": "Gallai Zip gymryd y 'Superhero' oddi ar Pop",
+                    "english_text": "Zip could take the superhero off Pop",
+                    "welsh_text": "Gallai Zip gymryd y 'Superhero' oddi ar Pop",
                     "image": "illustration_25.gif",
                     "solution_id": "18"
                 },
 		        {
-                    "english-text": "Zip could give Pop a different toy to play with instead",
-                    "welsh-text": "Gallai Zip roi tegan gwahanol i Pop chwarae ag ef yn ei le",
+                    "english_text": "Zip could give Pop a different toy to play with instead",
+                    "welsh_text": "Gallai Zip roi tegan gwahanol i Pop chwarae ag ef yn ei le",
                     "image": "illustration_26.gif",
                     "solution_id": "19"
                 },
 		        {
-                    "english-text": "Zip could take Pop's toy that Pop had brought into school",
-                    "welsh-text": "Gallai Zip gymryd y tegan yr oedd Pop wedi dod ag ef i'r ysgol",
+                    "english_text": "Zip could take Pop's toy that Pop had brought into school",
+                    "welsh_text": "Gallai Zip gymryd y tegan yr oedd Pop wedi dod ag ef i'r ysgol",
                     "image": "illustration_27.gif",
                     "solution_id": "20"
                 }
