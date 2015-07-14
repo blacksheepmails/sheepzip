@@ -2,6 +2,10 @@ from flask import Flask, request, jsonify
 
 import time, sys, random, json
 
+import logging
+from logging.handlers import RotatingFileHandler
+
+
 app = Flask(__name__)
 random.seed(time.time())
 server_time = str(int(time.time()))
@@ -23,8 +27,11 @@ def get_questions():
 @app.route('/api/response', methods=['POST'])
 def save_response():
     response = request.get_json()
+    response = csv(response, order=['user_id', 'solution_id', 'response', 'question_id'])
+    app.logger.info(response)
+
     with open(response_file, "a") as datafile:
-        datafile.write(csv(response) + '\n')
+        datafile.write(response+ '\n')
     return ''
 
 @app.route('/api/user', methods=['POST'])
@@ -33,14 +40,15 @@ def create_user():
     uid = random.randint(0, sys.maxsize)
     user['id'] = str(uid)
     with open(user_file, "a") as datafile:
-        datafile.write(csv(user) + '\n')
+        datafile.write(csv(user, order=['gender', 'age', 'name', 'language', 'id']) + '\n')
     return jsonify({'id': uid})
 
-def csv(thing):
-    output=''
-    for key in thing:
-        output += thing[key] + ','
-    return output[:-1]
+def csv(thing, order=[]):
+    return ','.join( str(thing[item]) for item in order)
 
 if __name__ == '__main__':
+    handler = RotatingFileHandler('sps.log', maxBytes=10000, backupCount=3)
+    handler.setLevel(logging.INFO)
+    app.logger.addHandler(handler)
+
     app.run(debug=True)
