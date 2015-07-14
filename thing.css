@@ -12,7 +12,7 @@ h1 {
 
 h2 {
     font-family: Sans-Serif;
-    color: blue;
+    color: white;
     text-align: center;
     font-size: 30px;
     font-weight: 300;
@@ -53,6 +53,7 @@ img.answer {
     max-width: 100%;
     width: auto;
     height: auto;
+    margin-bottom:3%;
 }
 
 input.name {
