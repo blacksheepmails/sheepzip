@@ -7,7 +7,7 @@ var user = {
 
 	$.ajax({
 		type: "POST",
-		url: "/user",
+		url: "/api/user",
 		data: JSON.stringify(user),
 		dataType: "json",
 		contentType: "application/json",

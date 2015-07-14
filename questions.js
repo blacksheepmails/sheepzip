@@ -3,7 +3,7 @@ var solution_counter = 0;
 var questions;
 
 function main () {
-    $.get("/questions", function (data,status) {
+    $.get("/api/questions", function (data,status) {
 	    if (status=="success") {
 		    questions=data.questions;
 		    loadQuestion();
@@ -64,7 +64,7 @@ function recordResponse (response) {
 	var response = {response: response, question_id: qid, solution_id: sid, user_id: localStorage.id};
 	$.ajax({
 		method: "POST",
-		url: "/response",
+		url: "/api/response",
 		data: JSON.stringify(response),
 		dataType: "json",
 		contentType: "application/json",
