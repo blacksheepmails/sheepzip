@@ -28,12 +28,17 @@ function loadSolution () {
     $(".content-question-container").hide();
     $(".solution-container").show();
     var imgtxt;
+    var imgsrc;
     if (localStorage.language == 'english') {
         imgtxt = questions[question_counter].solutions[solution_counter].english_text;
     } else {
         imgtxt = questions[question_counter].solutions[solution_counter].welsh_text;
     }
-    var imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].solutions[solution_counter].image;
+    if (questions[question_counter].solutions[solution_counter].image_duo == true) {
+        imgsrc = "social-problem-solving/static/assets/img-new/" + localStorage.language + '_' + questions[question_counter].solutions[solution_counter].image;
+    } else {
+        imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].solutions[solution_counter].image;
+    }
     document.getElementById("solution-txt").innerHTML = imgtxt; 
     document.getElementById("solution-img").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";
 }
@@ -47,6 +52,7 @@ function loadQuestion () {
     } else {
         imgtxt = questions[question_counter].welsh_text;
     }
+
     var imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].image;
     document.getElementById("question-txt").innerHTML = imgtxt; 
     document.getElementById("question-img").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";

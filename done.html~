@@ -11,6 +11,6 @@
     <h1 class="content-text welsh"> Rwyt ti wedi gorffen, Diolch! Rho'r iPad yn ol i dy athro/ athrawes plis. </h1>
 	<div class="content-image"><img class="content" src="social-problem-solving/static/assets/img-new/illustration_26.gif"></div>
     </div>
-
+<script src="done.js"></script>
 </body>
 </html>

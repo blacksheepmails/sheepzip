@@ -34,7 +34,7 @@ function loadSolution () {
     } else {
         imgtxt = questions[question_counter].solutions[solution_counter].welsh_text;
     }
-    if (questions[question_counter].solutions[solution_counter].image_duo == true) {
+    if (questions[question_counter].solutions[solution_counter].image_duo == 'true') {
         imgsrc = "social-problem-solving/static/assets/img-new/" + localStorage.language + '_' + questions[question_counter].solutions[solution_counter].image;
     } else {
         imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].solutions[solution_counter].image;
