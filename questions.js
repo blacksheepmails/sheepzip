@@ -23,6 +23,7 @@ function main () {
     attachEventListener("positive");    
 
     document.getElementById("content-question-container").addEventListener("click", loadSolution);
+
 }
 function loadSolution () {
     $(".content-question-container").hide();
@@ -46,6 +47,11 @@ function loadSolution () {
     document.getElementById('audio-source').src = 'audio/' + localStorage.language + '/' + questions[question_counter].solutions[solution_counter].sound;
     sound.load();
     sound.play();
+    document.getElementById('audio').onended = function () {
+        document.getElementById('audio-instructions-source').src = 'audio/' + localStorage.language + '/33.mp3';
+        document.getElementById('audio-instructions').load();
+        document.getElementById('audio-instructions').play();
+    }
 }
 
 function loadQuestion () {
@@ -82,6 +88,9 @@ function recordResponse (response) {
 }
 
 function next() {
+    document.getElementById('audio').pause();
+    document.getElementById('audio-instructions').pause();
+
 	if (solution_counter >= Object.keys(questions[question_counter].solutions).length - 1) {
         if (question_counter >= Object.keys(questions).length - 1) {
 	        window.location.href="done.html";
