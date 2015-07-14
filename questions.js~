@@ -9,27 +9,30 @@ function main () {
 		    loadQuestion();
 	    }
     });
-    document.getElementById("negative").addEventListener("click", function() {
-	    recordResponse("negative");
-	    next();
-	    }
-    );
-    document.getElementById("neutral").addEventListener("click", function() {
-	    recordResponse("neutral");
-	    next();
-	    }
-    );
-    document.getElementById("positive").addEventListener("click", function() {
-	    recordResponse("positive");
-	    next();
-	    }
-    );
+
+    function attachEventListener(response) {
+        document.getElementById(response).addEventListener("click", function() {
+	        recordResponse(response);
+	        next();
+	        }
+        );
+    }
+    
+    attachEventListener("negative");
+    attachEventListener("neutral");
+    attachEventListener("positive");    
+
     document.getElementById("content-question-container").addEventListener("click", loadSolution);
 }
 function loadSolution () {
     $(".content-question-container").hide();
     $(".solution-container").show();
-    var imgtxt = questions[question_counter].solutions[solution_counter].text
+    var imgtxt;
+    if (localStorage.language == 'english') {
+        imgtxt = questions[question_counter].solutions[solution_counter].english-text;
+    } else {
+        imgtxt = questions[question_counter].solutions[solution_counter].welsh-text;
+    }
     var imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].solutions[solution_counter].image;
     document.getElementById("solution-txt").innerHTML = imgtxt; 
     document.getElementById("solution-img").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";
@@ -38,7 +41,12 @@ function loadSolution () {
 function loadQuestion () {
     $(".solution-container").hide();
     $(".content-question-container").show();
-    var imgtxt = questions[question_counter].text;
+    var imgtxt;
+    if (localStorage.language == 'english') {
+        imgtxt = questions[question_counter].english-text;
+    } else {
+        imgtxt = questions[question_counter].welsh-text;
+    }
     var imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].image;
     document.getElementById("question-txt").innerHTML = imgtxt; 
     document.getElementById("question-img").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";

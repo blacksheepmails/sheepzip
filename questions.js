@@ -10,7 +10,7 @@ function main () {
 	    }
     });
 
-    function attachEventListner(response) {
+    function attachEventListener(response) {
         document.getElementById(response).addEventListener("click", function() {
 	        recordResponse(response);
 	        next();
@@ -27,7 +27,12 @@ function main () {
 function loadSolution () {
     $(".content-question-container").hide();
     $(".solution-container").show();
-    var imgtxt = questions[question_counter].solutions[solution_counter].text
+    var imgtxt;
+    if (localStorage.language == 'english') {
+        imgtxt = questions[question_counter].solutions[solution_counter].english_text;
+    } else {
+        imgtxt = questions[question_counter].solutions[solution_counter].welsh_text;
+    }
     var imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].solutions[solution_counter].image;
     document.getElementById("solution-txt").innerHTML = imgtxt; 
     document.getElementById("solution-img").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";
@@ -36,7 +41,12 @@ function loadSolution () {
 function loadQuestion () {
     $(".solution-container").hide();
     $(".content-question-container").show();
-    var imgtxt = questions[question_counter].text;
+    var imgtxt;
+    if (localStorage.language == 'english') {
+        imgtxt = questions[question_counter].english_text;
+    } else {
+        imgtxt = questions[question_counter].welsh_text;
+    }
     var imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].image;
     document.getElementById("question-txt").innerHTML = imgtxt; 
     document.getElementById("question-img").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";
