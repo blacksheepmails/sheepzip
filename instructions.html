@@ -3,26 +3,31 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="thing.css">
 </head>
-<body onclick="next()" class="clickable">
+<body onload="main()" onclick="next()" class="clickable">
 <div class="content-container">
-    <h1 class="content-text"> [Zip is having trouble at school. Can you help?] </h1>
+    <h1 class="content-text english">Zip is having trouble at school. Can you help?</h1>
+    <h1 class="content-text welsh">Mae Zip yn cael trafferthion yn yr ysgol. A elli di helpu?</h1>
     <div class="content-image">
-	<h2> You will be shown Zip's problems and things you can do to solve them. Please can you click one face in each picture, to let Zip know whether each thing would work </h2>
-	</div>
+	    <h2 class="english"> You will be shown Zip's problems and things you can do to solve them. Please can you click one face in each picture, to let Zip know whether each thing would work. </h2>
+        <h2 class="welsh"> Fe gei di weld problemau Zip a'r phethau y gallai Zip eu gwneud i'w clatrys. A elli di glicio ar un wyneb ym mhob llun, i ddweud wrth Zip a fyddai y pethau yma yn: </h2>
+	    </div>
     </div>
 <div class="response-container">
     <ul>
 	<li class="response">
-	    <img class="response" id="negative" src="social-problem-solving/static/assets/img-new/face_sad.gif" alt="sad">
-	    <h1>negative</h1>
+	    <img class="response" src="social-problem-solving/static/assets/img-new/face_sad.gif" alt="sad">
+	    <h2 class="english">this would not work</h2>
+        <h2 class="welsh">Fyddai hyn ddim yn gweithio</h2>
 	    </li>
 	<li class="response">
-	    <img class="response" id="neutral" src="social-problem-solving/static/assets/img-new/face_meh.gif" alt="meh">
-	    <h1>neutral</h1>
+	    <img class="response" src="social-problem-solving/static/assets/img-new/face_meh.gif" alt="meh">
+	    <h2 class="english">this would sometimes work</h2>
+        <h2 class="welsh">Byddai hyn yn gweithio weithiau</h2>
 	    </li>
 	<li class="response">
-	    <img class="response" id="positive" src="social-problem-solving/static/assets/img-new/face_happy.gif" alt="happy">
-	    <h1>positive</h1>
+	    <img class="response" src="social-problem-solving/static/assets/img-new/face_happy.gif" alt="happy">
+	    <h2 class="english">this would work</h2>
+        <h2 class="welsh">Byddai hyn yn gweithio</h2>
 	    </li>
 	</ul>
 </div>

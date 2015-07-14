@@ -2,31 +2,37 @@
     "questions": [
         {
             "question_id": "1",
-            "text": "There is a new girl in Zip's class, and Zip wants to be her friend. How could Zip get to know her?",
+            "english-text": "There is a new girl in Zip's class, and Zip wants to be her friend. How could Zip get to know her?",
+            "welsh-text": "Mae merch newydd yn nosbarth Zip, ac mae Zip yn awyddus i fod yn ffrind iddi. Sut y gallai Zip ddod i'w hadnabod?",
 	        "image": "illustration_4.gif",
             "solutions": [
 		        {
-                    "text": "Zip could say hi",
+                    "english-text": "Zip could say hi",
+                    "welsh-text": "Gallai Zip ddweud \"Helo\"",
                     "image": "illustration_5.gif",
 		            "solution_id": "1"
                 },
 		        {
-                    "text": "Zip could sit near her",
+                    "english-text": "Zip could sit near her",
+                    "welsh-text": "Gallai Zip eistedd wrth ei hymyl",
                     "image": "illustration_6.gif",
 		            "solution_id": "2"
                 },
 		        {
-                    "text": "Zip could throw a rubber at her to get her attention",
+                    "english-text": "Zip could throw a rubber at her to get her attention",
+                    "welsh-text": "Gallai Zip daflu rwber ati i gael ei sylw",
                     "image": "illustration_7.gif",
 		            "solution_id": "3"
                 },
 		        {
-                    "text": "Zip could play with her",
+                    "english-text": "Zip could play with her",
+                    "welsh-text": "Gallai Zip chwarae a hi",
                     "image": "illustration_8.gif",
 		            "solution_id": "4"
                 },
 		        {
-                    "text": "Zip could make sure no one else could talk to her",
+                    "english-text": "Zip could make sure no one else could talk to her",
+                    "welsh-text": "Gallai Zip sicrhau na allai neb arall siarad a hi",
                     "image": "illustration_9.gif",
 		            "solution_id": "5"
                 }
@@ -102,29 +108,29 @@
 	        "image": "illustration_22.gif",
             "solutions": [
 		        {
-                    "text": "Zip could join in without asking",
-                    "image": "illustration_11.gif",
-                    "solution_id": "6"
+                    "text": "Zip could warn Pop it's home time soon and that the superhero toy needed to go home with Zip",
+                    "image": "illustration_23.gif",
+                    "solution_id": "16"
                 },
 		        {
-                    "text": "Zip could ask to play",
-                    "image": "illustration_12.gif",
-                    "solution_id": "7"
+                    "text": "Zip could watch the superhero carefully to know where it was",
+                    "image": "illustration_24.gif",
+                    "solution_id": "17"
                 },
 		        {
-                    "text": "Zip could start a new game of piggy in the middle with some other friends",
-                    "image": "illustration_13.gif",
-                    "solution_id": "8"
+                    "text": "Zip could take the superhero off Pop",
+                    "image": "illustration_25.gif",
+                    "solution_id": "18"
                 },
 		        {
-                    "text": "Zip could try and grab the ball",
-                    "image": "illustration_14.gif",
-                    "solution_id": "9"
+                    "text": "Zip could give Pop a different toy to play with instead",
+                    "image": "illustration_26.gif",
+                    "solution_id": "19"
                 },
 		        {
-                    "text": "Zip could get cross with them for not including Zip and demand to play",
-                    "image": "illustration_15.gif",
-                    "solution_id": "10"
+                    "text": "Zip could take Pop's toy that Pop had brought into school",
+                    "image": "illustration_27.gif",
+                    "solution_id": "20"
                 }
 	        ]
         }

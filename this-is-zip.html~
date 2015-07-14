@@ -3,9 +3,9 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="thing.css">
 </head>
-<body onclick="next()">
+<body onload="main()" onclick="next()" class="clickable">
 <div class="content-container">
-    <h1 class="content-text"> [This is Zip. Zip needs your help!] </h1>
+    <h1 class="content-text" id="zip-text"></h1>
     <div class="content-image">
 	<img class="content" src="social-problem-solving/static/assets/img-new/illustration_1.gif">
 	</div>

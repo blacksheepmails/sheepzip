@@ -5,18 +5,24 @@
 </head>
 <body onload = "main()">
     <div class="question-container">
-        <h1>[I am a]</h1>
-        <h1>[I am a]</h1>
+        <h1 class="english">I am a:</h1>
+        <h1 class="welsh">Rwyf:"</h1>
         </div>
     <div class="answer-container">
         <ul>
-	      <li class="gender clickable">
-            <img id="boy_img" class="answer" src="social-problem-solving/static/assets/img-new/illustration_2.gif"/>
-            <div><h2 id="boy_txt">boy</h2></div>
+	      <li class="gender">
+            <img id="boy_img" class="answer clickable" src="social-problem-solving/static/assets/img-new/illustration_2.gif"/>
+            <div id="boy_txt" class="clickable">
+                <h2 class="english">boy</h2>
+                <h2 class="welsh">yn Fachgen</h2>
+                </div>
           </li>
-          <li class="gender clickable">
-            <img id="girl_img" class="answer" src="social-problem-solving/static/assets/img-new/illustration_3.gif"/>
-            <div><h2 id="girl_txt">girl</h2></div>
+          <li class="gender">
+            <img id="girl_img" class="answer clickable" src="social-problem-solving/static/assets/img-new/illustration_3.gif"/>
+            <div id="girl_txt" class="clickable">
+                <h2 class="english">girl</h2>
+                <h2 class="welsh">yn Ferch</h2>
+                </div>
             </li>
            </ul>
         </div>

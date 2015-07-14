@@ -1,4 +1,9 @@
 function main () {
+        if (localStorage.language == 'english') {
+        $('.welsh').hide();
+    } else {
+        $('.english').hide();
+    }
     document.getElementById("boy_img").addEventListener("click", clickHandler.bind(this, "boy"));
     document.getElementById("boy_txt").addEventListener("click", clickHandler.bind(this, "boy"));
     document.getElementById("girl_img").addEventListener("click", clickHandler.bind(this, "girl"));

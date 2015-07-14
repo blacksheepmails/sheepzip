@@ -5,13 +5,11 @@
 </head>
 <body onload="main()">
     <div class="question-container">
-        <h1>[What is your name?]</h1>
-        <h1>[What is your name?]</h1>
+        <h1 id="name-question"></h1>
         </div>
     <div class="answer-container">
         <input class="name" id="name" type="text">
-        <img class="submit" class="clickable" id="submit" src="social-problem-solving/static/assets/img-new/submit_arrow.gif"/>
-        <input type="text">        
+        <img class="submit clickable" id="submit" src="social-problem-solving/static/assets/img-new/submit_arrow.gif"/>      
         </div>
 <script src="name.js"></script>
 </body>

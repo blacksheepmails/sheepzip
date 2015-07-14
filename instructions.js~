@@ -1,3 +1,11 @@
+function main() {
+    if (localStorage.language == 'english') {
+        $('.welsh').hide();
+    } else {
+        $('.english').hide();
+    }
+}
+
 var user = {
 		'name':localStorage.name,
 		'language':localStorage.language,
@@ -10,7 +18,7 @@ var user = {
 		url: "/user",
 		data: JSON.stringify(user),
 		dataType: "json",
-		contentType: "application/json"
+		contentType: "application/json",
 		success: function (data){localStorage.id=data.id;}
 	});
 

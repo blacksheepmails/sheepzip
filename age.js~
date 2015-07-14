@@ -1,6 +1,9 @@
-function main () {
-    var ages = document.getElementsByClassName("age-choice")
-    for (var i=0; i<ages.length; i++) {ages[i].addEventListener("click", clickHandler.bind(this, ages[i].innerHTML));}
+function main() {
+    if (localStorage.language == 'english') {
+        document.getElementById('age-question').innerHTML = 'My age is:';
+    } else {
+        document.getElementById('age-question').innerHTML = "Rwy'n __ oed:";
+    }
 }
 
 function clickHandler (age) {

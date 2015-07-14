@@ -2,7 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="thing.css">
 </head>
-<body onclick="next()">
+<body onclick="next()" class="clickable">
     <div class="title-container">
         <h1>Child KS1 Social Problem Solving Test</h1>
         <h1>[Welsh Translation]</h1>

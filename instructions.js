@@ -14,6 +14,14 @@ var user = {
 		success: function (data){localStorage.id=data.id;}
 	});
 
+function main() {
+    if (localStorage.language == 'english') {
+        $('.welsh').hide();
+    } else {
+        $('.english').hide();
+    }
+}
+
 function next() {
 	window.location.href="questions.html";
 }

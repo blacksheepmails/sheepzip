@@ -1,4 +1,9 @@
 function main () {
+    if (localStorage.language == 'english') {
+        $('.welsh').hide();
+    } else {
+        $('.english').hide();
+    }
     document.getElementById("submit").addEventListener("click", clickHandler);
 }
 
