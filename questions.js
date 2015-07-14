@@ -41,6 +41,11 @@ function loadSolution () {
     }
     document.getElementById("solution-txt").innerHTML = imgtxt; 
     document.getElementById("solution-img").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";
+
+    var sound = document.getElementById('audio');
+    document.getElementById('audio-source').src = 'audio/' + localStorage.language + '/' + questions[question_counter].solutions[solution_counter].sound;
+    sound.load();
+    sound.play();
 }
 
 function loadQuestion () {
@@ -56,6 +61,11 @@ function loadQuestion () {
     var imgsrc = "social-problem-solving/static/assets/img-new/" + questions[question_counter].image;
     document.getElementById("question-txt").innerHTML = imgtxt; 
     document.getElementById("question-img").innerHTML = "<img class=\"content\" src=\"" + imgsrc + "\"></img>";
+
+    var sound = document.getElementById('audio');
+    document.getElementById('audio-source').src = 'audio/' + localStorage.language + '/' + questions[question_counter].sound;
+    sound.load();
+    sound.play();
 }
 
 function recordResponse (response) {

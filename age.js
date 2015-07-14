@@ -4,6 +4,10 @@ function main() {
     } else {
         $('.english').hide();
     }
+    var sound = document.getElementById('audio');
+    document.getElementById('audio-source').src = 'audio/' + localStorage.language + '/5.mp3';
+    sound.load();
+    sound.play();
 }
 
 function clickHandler (age) {

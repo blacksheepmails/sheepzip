@@ -12,5 +12,5 @@ function main () {
 
 function clickHandler (gender) {
 	localStorage.gender=gender;
-	window.location.href="instructions.html";
+	window.location.href="this-is-zip.html";
 }

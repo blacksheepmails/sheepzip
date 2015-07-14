@@ -4,8 +4,13 @@ function main() {
     } else {
         $('.english').hide();
     }
+
+    var sound = document.getElementById('audio');
+    document.getElementById('audio-source').src = 'audio/' + localStorage.language + '/6.mp3';
+    sound.load();
+    sound.play();
 }
 
 function next() {
-	window.location.href="age.html";
+	window.location.href="instructions.html";
 }

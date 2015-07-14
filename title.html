@@ -2,7 +2,13 @@
 <head>
 <link rel="stylesheet" type="text/css" href="thing.css">
 </head>
-<body onclick="next()" class="clickable">
+<body onload='main()' onclick="next()" class="clickable">
+    <audio autoplay id='welsh-audio'>
+        <source src='audio/welsh/1.mp3' type='audio/mpeg'>
+    </audio>
+    <audio id='english-audio'>
+        <source src='audio/english/1.mp3' type='audio/mpeg'>
+    </audio>
     <div class="title-container">
         <h1>Prawf Datrys Problemau Cymdeithasol - Plant yng Nghyfnod Allweddol 1</h1>
         <h1>Child KS1 Social Problem Solving Test</h1>
