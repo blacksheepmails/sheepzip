@@ -1,8 +1,8 @@
 var user = {
-		'name':localStorage.name,
-		'language':localStorage.language,
-		'age':localStorage.age,
-		'gender':localStorage.gender
+		'name' : localStorage.name,
+		'language' : localStorage.language,
+		'age' : localStorage.age,
+		'gender' : localStorage.gender
 	};
 
 	$.ajax({
