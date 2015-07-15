@@ -31,7 +31,7 @@ def save_response():
     app.logger.info(response)
 
     with open(response_file, "a") as datafile:
-        datafile.write(response+ '\n')
+        datafile.write(response + '\n')
     return ''
 
 @app.route('/api/user', methods=['POST'])
