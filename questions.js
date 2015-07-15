@@ -16,7 +16,7 @@ function main () {
             document.getElementById('start').addEventListener("click", function() {
                 $('#start').hide();
 		        loadQuestion();
-            }
+            });
 	    }
     });
 
