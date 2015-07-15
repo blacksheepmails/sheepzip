@@ -14,8 +14,8 @@ function main () {
 	    if (status=="success") {
 		    questions=data.questions;
             document.getElementById('start').addEventListener("click", function() {
-                $('#start').hide();
-		        loadQuestion();
+                loadQuestion();
+                $('.start').hide();
             });
 	    }
     });
