@@ -3,12 +3,20 @@
 <link rel="stylesheet" type="text/css" href="thing.css">
 </head>
 <body onload='main()' onclick="next()" class="clickable">
-    <audio controls id='welsh-audio'>
-        <source src='audio/welsh/1.mp3' type='audio/mpeg'>
-    </audio>
-    <audio id='english-audio'>
-        <source src='audio/english/1.mp3' type='audio/mpeg'>
-    </audio>
+    <ul>
+        <li class="sound">
+            <h2> Cymraeg </h2>
+            <audio controls id='welsh-audio'>
+                <source src='audio/welsh/1.mp3' type='audio/mpeg'>
+            </audio>
+        </li>
+        <li class="sound">
+            <h2> English </h2>
+            <audio id='english-audio'>
+                <source src='audio/english/1.mp3' type='audio/mpeg'>
+            </audio>
+        </li>
+    </ul>
     <div class="title-container">
         <h1>Prawf Datrys Problemau Cymdeithasol - Plant yng Nghyfnod Allweddol 1</h1>
         <h1>Child KS1 Social Problem Solving Test</h1>

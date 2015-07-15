@@ -3,10 +3,20 @@ var solution_counter = 0;
 var questions;
 
 function main () {
+    $("#content-question-container").hide();
+    $(".solution-container").hide();
+    if (localStorage.language == 'english') {
+        $('.welsh').hide();
+    } else {
+        $('.english').hide();
+    }
     $.get("/api/questions", function (data,status) {
 	    if (status=="success") {
 		    questions=data.questions;
-		    loadQuestion();
+            document.getElementById('start').addEventListener("click", function() {
+                $('#start').hide();
+		        loadQuestion();
+            }
 	    }
     });
 

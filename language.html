@@ -4,12 +4,20 @@
 <link rel="stylesheet" type="text/css" href="thing.css">
 </head>
 <body onload="main()">
-    <audio controls id='welsh-audio'>
-        <source src='audio/welsh/2.mp3' type='audio/mpeg'>
-    </audio>
-    <audio id='english-audio'>
-        <source src='audio/english/2.mp3' type='audio/mpeg'>
-    </audio>
+    <ul>
+        <li class="sound">
+            <h2> Cymraeg </h2>
+            <audio controls id='welsh-audio'>
+                <source src='audio/welsh/2.mp3' type='audio/mpeg'>
+            </audio>
+        </li>
+        <li class="sound">
+            <h2> English </h2>
+            <audio id='english-audio'>
+                <source src='audio/english/2.mp3' type='audio/mpeg'>
+            </audio>
+        </li>
+    </ul>
     <div class="question-container">
         <h1>Pa iaith rwyt ti'n ei siarad fwyaf?</h1>
         <h1>Which language do you speak?</h1>
