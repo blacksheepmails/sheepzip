@@ -15,7 +15,7 @@ function main () {
 		    questions=data.questions;
             document.getElementById('start').addEventListener("click", function() {
                 loadQuestion();
-                $('.start').hide();
+                $('#start').hide();
             });
 	    }
     });
